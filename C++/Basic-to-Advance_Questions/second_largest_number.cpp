@@ -16,9 +16,6 @@ int find_second_largest(int arr[], int size) {
     
     int max = 0;         
     int second_max = 0;
-
-    //  0, 1, 2, 3, 4, 5, 6
-    // [5, 2, 8, 1, 3, 9, 4]
     
     for(int i=0; i<size; i++){
         if(arr[i] > max){
