@@ -8,6 +8,8 @@
 # Return the reverse of the input string s.
 # For example, if the input string is "hello", the output should be "olleh".
 
-str = 'hello';
-# for i in range(len(str),0,1):
-    
+str = 'hello'
+bag=""
+for i in range(len(str)-1,-1,-1):
+    bag += str[i]
+print (bag)    
