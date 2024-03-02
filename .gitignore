@@ -10,6 +10,7 @@ Desktop.ini
 
 # Ignore IDE or editor files
 .vscode/
+output/
 .idea/
 .classpath
 .project
